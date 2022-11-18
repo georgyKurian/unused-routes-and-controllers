@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "georgykurian/find-unused-routes-and-controllers",
+    "description": "Package to find obsolute routes and controllers in a project",
     "keywords": [
-        ":vendor_name",
+        "georgyKurian",
         "laravel",
-        ":package_slug"
+        "find-unused-routes-and-controllers"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/georgykurian/find-unused-routes-and-controllers",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Georgi Kurian",
+            "email": "georgi.v.k@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,18 +30,17 @@
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0",
         "phpstan/phpstan-phpunit": "^1.0",
-        "phpunit/phpunit": "^9.5",
-        "spatie/laravel-ray": "^1.26"
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "GeorgyKurian\\FindUnusedRoutesAndControllers\\": "src",
+            "GeorgyKurian\\FindUnusedRoutesAndControllers\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "GeorgyKurian\\FindUnusedRoutesAndControllers\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +60,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "GeorgyKurian\\FindUnusedRoutesAndControllers\\FindUnusedRoutesAndControllersServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FindUnusedRoutesAndControllers": "GeorgyKurian\\FindUnusedRoutesAndControllers\\Facades\\FindUnusedRoutesAndControllers"
             }
         }
     },
