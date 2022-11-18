@@ -2,9 +2,9 @@
 
 namespace GeorgyKurian\FindUnusedRoutesAndControllers;
 
+use GeorgyKurian\FindUnusedRoutesAndControllers\Commands\FindUnusedRoutesAndControllersCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use GeorgyKurian\FindUnusedRoutesAndControllers\Commands\FindUnusedRoutesAndControllersCommand;
 
 class FindUnusedRoutesAndControllersServiceProvider extends PackageServiceProvider
 {

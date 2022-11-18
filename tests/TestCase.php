@@ -2,9 +2,9 @@
 
 namespace GeorgyKurian\FindUnusedRoutesAndControllers\Tests;
 
+use GeorgyKurian\FindUnusedRoutesAndControllers\FindUnusedRoutesAndControllersServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use GeorgyKurian\FindUnusedRoutesAndControllers\FindUnusedRoutesAndControllersServiceProvider;
 
 class TestCase extends Orchestra
 {
